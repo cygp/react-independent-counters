@@ -3,7 +3,7 @@ var App = React.createClass({
     return (
       React.createElement('div', {className: 'application'},
         React.createElement(Counter, {}),
-        React.createElement(CounterClone, {})
+        React.createElement(Counter, {}),
       )
     );
 }
